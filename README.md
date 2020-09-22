@@ -16,3 +16,7 @@ how to access the file
 http://localhost:3000/uploads/191245fbbc040ec3ca0c9c01be53d338.pdf
 
 url:port/uploads
+
+```
+to ignore node_module<br>
+touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules ; git status
